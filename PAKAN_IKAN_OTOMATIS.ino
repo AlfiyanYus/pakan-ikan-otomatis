@@ -3,7 +3,7 @@
 RTC_DS1307 rtc;
 //#include <TM1637Display.h> //HAPUS TANDA KOMENTAR JIKA INGIN MENGUNAKAN 7 SEGMEN
 //#define CLK 2              // YANG BERFORMAT (display)
-//#define DIO 3              // 7 segmen meggunakan TM1637, 4 PIN
+//#define DIO 3              // 7 segmen meggunakan TM1637, I2C
 //TM1637Display display = TM1637Display(CLK, DIO);
 #include <Servo.h>
 Servo myservo;
